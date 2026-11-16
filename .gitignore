@@ -1,0 +1,52 @@
+# =============================================================================
+# 1. Dependencias y Carpetas de Compilación (Node.js / Vite / React)
+# =============================================================================
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =============================================================================
+# 2. Estado, Binarios y Variables de OpenTofu / Terraform
+# =============================================================================
+.terraform/
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+*.tfplan
+
+# =============================================================================
+# 3. Archivos de Variables de Entorno
+# =============================================================================
+.env
+.env.*
+frontend/.env
+frontend/.env.*
+
+# =============================================================================
+# 4. Empaquetados Generados Dinámicamente (AWS Lambda)
+# =============================================================================
+backend/function.zip
+*.zip
+
+# =============================================================================
+# 5. Archivos del Sistema Operativo (Windows / macOS / Linux)
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,14 @@
+.todo-card {
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.todo-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08) !important;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+  opacity: 0.65;
+}
+
